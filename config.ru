@@ -28,6 +28,6 @@ ENV["environment"] = 'development'
 db = Database.connect(config[ENV["environment"]])
 
 # main app
-require '.app/app.rb'
+require './app/app.rb'
 
 run Sinatra::Application
