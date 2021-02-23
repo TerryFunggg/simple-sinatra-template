@@ -1,0 +1,7 @@
+development:
+  host:
+  database:
+  username:
+  password:
+  encoding: utf8
+  socket:
